@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>
+        Joma Store
+    </title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cc5a82fdb7.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/jomastore.png" alt="">
+            </div>
+            <div class="navitems">
+                <ul>
+                    <li><a href="#home"></a>Home</li>
+                    <li><a href="#products"></a>Products</li>
+                    <li><a href="#contactus"></a>Contact Us</li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero"><img src="img/hero.jpg" alt="">
+        </div>
+
+    </header>
+    <main>
+        <div class="total-div"> Total:
+            <span class="total">0.00$</span>
+        </div>
+        <div class="products">
+            <div class="item">
+                <button class="close" onclick="removeItem(event)"><i class="fa fa-times-circle    "></i></button>
+                <button class="like"><i class="fa fa-heart" aria-hidden="true"></i></button>
+                <img src="img/alwaysblue.jpg" alt="" class="cardimg">
+                <div class="left">
+                    <input type="number" class="quantity" value="0">
+                    <span class="price">19.00$</span>
+                </div>
+            </div>
+            <div class="item">
+                <button class="close"><i class="fa fa-times-circle    "></i></button>
+                <button class="like"><i class="fa fa-heart" aria-hidden="true"></i></button>
+                <img src="img/ashleytoo.jpg" alt="" class="cardimg">
+                <div class="left">
+                    <input type="number" class="quantity" value="0">
+                    <span class="price">79.00$</span>
+                </div>
+            </div>
+            <div class="item">
+                <button class="close"><i class="fa fa-times-circle    "></i></button>
+                <button class="like"><i class="fa fa-heart" aria-hidden="true"></i></button>
+                <img src="img/cosmo.jpg" alt="" class="cardimg">
+                <div class="left">
+                    <input type="number" class="quantity" value="0">
+                    <span class="price">399.00$</span>
+                </div>
+            </div>
+            <div class="item">
+                <button class="close"><i class="fa fa-times-circle    "></i></button>
+                <button class="like"><i class="fa fa-heart" aria-hidden="true"></i></button>
+                <img src="img/dungsanddrag.jpg" alt="" class="cardimg">
+                <div class="left">
+                    <input type="number" class="quantity" value="0">
+                    <span class="price">12.00$</span>
+                </div>
+            </div>
+        </div>
+    </main>
+<script src="js/script.js" async></script>
+</body>
+
+</html>
