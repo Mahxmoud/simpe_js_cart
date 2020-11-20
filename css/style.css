@@ -1,45 +1,50 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #fafafa;
+    background-color: #f1f1f1;
 }
 
 nav {
     display: flex;
     align-items: center;
+    background-color: #fafafa;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+}
+
+header {
+    background-image: url(../img/hero.jpg);
+    height: 630px;
+    object-fit: cover;
+    background-position: center 70%;
+    background-blend-mode: darken;
 }
 
 .logo img {
-    width: 150px;
+    padding-left: 30px;
+    width: 100px;
 
 }
 
 .logo {
-    width: 60%;
+    width: 70%;
 }
 
 .navitems {
-    width: 40%;
+    width: 30%;
 
 }
 
 .navitems li {
     display: inline-flex;
-    color: #44f7af;
+    color: #50D7EA;
     padding: 5px;
     font-size: 20px;
-}
-
-.hero {
-    height: 700px;
-    width: auto;
-    overflow: hidden;
-    max-width: 100%;
-    height: auto;
-
-}
-
-.hero img {
-    background-position: center;
 }
 
 .total-div {
@@ -56,6 +61,7 @@ nav {
 .products .item {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     height: 250px;
     border-radius: 10px;
     background-color: white;
@@ -71,7 +77,7 @@ nav {
 button {
     height: 50px;
     width: 50px;
-    background-color: #44f7af;
+    background-color: #50D7EA;
     border-style: none;
     border-radius: 30px;
     color: white;
@@ -79,7 +85,7 @@ button {
 }
 
 button:hover {
-    background-color: #00b96f;
+    background-color: #50D7EA;
     box-shadow: inherit;
 }
 
@@ -89,20 +95,27 @@ button:hover {
     border-radius: 8px;
 }
 
-.quantity{
+.quantity {
     width: 80px;
     height: 40px;
     text-align: center;
-    border-color: #00b96f;
+    border-color: rgb(55, 223, 223);
     border-radius: 5px;
     font-size: 16px;
     margin-left: 30px;
     margin-right: 30px;
+
 }
 
 .fa {
     font-size: 20px;
 }
-.price{
+
+.price {
     font-size: 26px;
+}
+
+.left {
+    justify-self: end;
+    width: 20%;
 }
