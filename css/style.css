@@ -115,7 +115,10 @@ button:hover {
     font-size: 26px;
 }
 
-.left {
-    justify-self: end;
-    width: 20%;
+.liked{
+    color: red;
+    transform: 0.4s;
+}
+.like{
+    color: #00000030;
 }
