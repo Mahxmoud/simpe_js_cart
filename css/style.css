@@ -114,11 +114,9 @@ button:hover {
 .price {
     font-size: 26px;
 }
-
-.liked{
-    color: red;
-    transform: 0.4s;
+.fa-heart{
+    color:grey;
 }
-.like{
+/* .like::before{
     color: #00000030;
-}
+} */

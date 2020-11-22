@@ -68,11 +68,11 @@ function updateTotal() {
 
 function itemLiked(event) {
   var itemLikeBtn = event.target;
+  console.log(itemLikeBtn.style.color);
 
-  if (itemLikeBtn.style["color"] = "#00000030") {
-    itemLikeBtn.style["color"] = "red";
-  } else if (itemLikeBtn.style["color"] = "red") {
-    console.log('color');
-    itemLikeBtn.style["color"] = "#00000030";
+  if (itemLikeBtn.style.color === "grey") {
+    itemLikeBtn.style.color = "red";
+  } else {
+    itemLikeBtn.style.color = "grey";
   }
 }
